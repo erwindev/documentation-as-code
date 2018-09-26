@@ -14,6 +14,7 @@ env:
   - secure: HpRafwQjInEYD6pMo3IWtR6+Of7AHJyt3vMfTWPrIMZw3eDh0nq6hlLjlDV15squh0MnhZ9vQA6ol+qGTFf/TFJFa6P8x4UbvNKR2pEMHe2Bb6bVOyKrChBYyhVojEh6BKfet+Pkxu8yXviN1VxB9MYKGnxxS1BzeZZECxSTAD9optSs2EnUx3tmynAHtYKS3nB5eTWquv5xlYvjj8WcHJMlisKPbLfrtxrm5tF6Fi4npb5ys/XgwyJ0abiKNgtSS1ppK0ESPsizzzj06WpWu45m8RZ1SMZbNpOS+8NT3picbnOtquEz/xuVgaX1Nw6Ytfelley26kqnb7cyHMqGWGUpYk+jSKH+73jzvzKIZxj101zdnqHICdLRcC6mcaKVFpAC9qR94WVMtyIqYkNCgd76n/CiPw3o5xHzSYgIBsFbNH9zg3eN5Eve32h6WEc40PIatDmx6lVbgp3Ero2CztzSM+tfKzj74tQp88jkkU9PlDI12TN8eUwENt/VW+PwA47DnjhaxdM0534okAuObOCDZX8MZBfSfSG7O7MiImqkOxLDriHQsLFoa5rRAmuhDfr5oSAGPOzR2t6CIn1AyOZPEVe+NngaZFgZYZF9kKOp6GtQUZMn7z74EP9oEGC2Cd5uWUBmZ2C2f0SxjwarAqw9bccez2dzsiozSK9GsaU=
 script:
 - pip install mkdocs
+- echo "$DOCKER_USER" 
 - docker build -t $DOCKER_USER/documentation-as-code .
 - docker tag $DOCKER_USER/documentation-as-code $DOCKER_USER/documentation-as-code:latest
 - docker login -u $DOCKER_USER -p $DOCKER_PASS
