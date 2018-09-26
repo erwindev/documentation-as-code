@@ -1,24 +1,22 @@
 language: python
 python:
-  - "3.6"
+- '3.6'
 cache: pip
 sudo: required
-env:
-  global:
-  - secure: fI4/mzahGXX/dhPRy5pI/agOR10PvL/3kxWmv0dOAG2h9neZj0DDlSm0wpKe4p2rdclm0VAiotE0hfc+yukwtp02TAE1y8Yr4zSSE24cXMEv6rS4X7KqzvOGQDCjJfdHR8r1xUKPORDD6csVHpKLOlpE1PlEvQ51BKcpR2ldXtHVAyAwgg0HNiDdtt59qCGdnLo1inrczruJV6cUDsNvY4bHbJBG0/qAejK9Ph3hO2OKMCtaeVO0+GAfT2ZXTQvWLWMUMKeu8JFyxevpk+R1lX33gQVBsr65kSpFvpzFcK24TxSzAUo6Ybi7GYYIRI1NhyQ+8Xca4uIa4oOLub8nBQlL57Rfv1GwncPZslKX6A9/2hhSCiE5TY1x0RYHcx20dvCAQReANOIkK8dTX6jruqR9jFqqhjLdBVEsgMJhSr+LJ4cUDWZXdEFYA/4BJYX03aAp09bALeG2WPKMMDOteqk6ogAXtM1Navo56yHesWsadiymGrHZT3CRpAnw5sL5rybl8ZZYK+Ft4JS7kCsGVpmavmx+KfGaVdAFoaB+Fpnj4Zf3GKz8LcG5wq2DKjd5kD7kl9Zm7lKaCLb3Nb+VYbhdKgCKqoDNoihZBXEoHFHm9t3mqKNYKwXvfn/RxyC2WCODzCuDgcBI2/bbp+gaxq6WuDOIrZRzFDHvzFyTCPQ=
-  - secure: o6IKJLplN5okRcCtn0W8bcOy7yywmNf/JT6G6rcyjozQ9VA+yQ8D04FNRAcRyhjTyzoRrnV4p7F3LDSQwfUSzsMLt1B0wAg9ZaTDgK0CTH/yEgvMx5I526vGAk+pP35Hs4BAuCWt7ESfg2Q9gvXFvhBCKm4SK2baDoT6yMimF7KX1VDqGx0zma3R33Btbze1OPBqwkwVKxtiSK2wfaTy4n++GwElRwtWzwxY59jswgB451BBBV/6BGegcNYdjL6uCEcoitxHT7mELD8mTkDYVKwGFsieMfUyaukl5JuG27a27OBo3ciSGBzaPAIgZMlRrgQUZ0YssEB3XdiNf208yPfX4xj8lUtuyKvXDXYQdYj7ucrsDfdXqrlpLOumXUBfNwhga/x46zCTFLtPrV3oOxZmFbOTDnzgAeryEtNMk+1nJ3i3s1DwfFyUF9ZS/6S7vN1vr68WTA8EFU3JLdCWNY/TYDaX+7gfwCDiyJ88BEYRPUkZXhIAnZ5+v/u8fwtsXkPVRUpCa4gqMpDMzy/HD22PWi+lxDshkN31DFzhZSrwxKzp0jEaGQuc+YkrC9YTrwQN84H8szX/9bzUZ+6Qj4RICmdfCmo6q0m4J2iCyuGYIcjvIRdV4pUthTYLhKWlcrz388RSWuiuM/u4aUFacAA1z5oKsIf8MIc6mg/sQlk=
-services:
-  - docker
 branches:
   only:
-    - master
+  - master
+env:
+  global:
+  - secure: hrh0cvddwoCWrFHZm+fAqqm8IFl7RQ/0e8dJei7y8PWnRL/+Qg/9/CKfaGNnT6nc52pbc4Pt6nqBcc1arrlHOesUOurdyRVdDNTbJrVIM9vIllNGtp4ALnZR+zmTDQ10OtP3eS/VPoaIqg4s1GWwqEAitRjdpJ1PGOXxFC0G+paUDklKEeNhZECai34f2+YOA8UjYtyWUJxBWPThr6f1/wOThPoOye8ulwGRjrz4MkVOPYslDcO97J381jPyD/cRJS1f9JzlqUd7U4xoP+Mq9Ul7qcJq7DWZA5PRkOgO4Dpo1FQ2W088qXOkDymV2MGl4yIv+OXSxS6NdjqNq8J1QEdHKBHF8QalqbLApTsL7RIDSENgYBCqxlI5ZjUw5O/YYtuKFCLZ9IoKzvFjXuO0Y04IJWCQlFFEU2HjjNbV3YJ2t323FF9hr7NoRqGTOdxuevaXIFLCuCHpGibxszShisqUsZmt8lFO2siu1YKMlyz+zPzY+CsM7NUIQc5UU8LeypPrlMdbUyyYKhkQ58sgvxlehS924yFt1H4TitlbcnPzyrVtnz2o/cR01BMvE6zpW2bbbRfY1auPoys2S5YhsCdn3NNSi9ZnDA3/LntetGCr3A6QgQoenDD5YWYuYJo4CPtV/hO1xtxLj4RLG5B/9ySOZU9yp9L/mKuNz8J2E40=
+  - secure: HpRafwQjInEYD6pMo3IWtR6+Of7AHJyt3vMfTWPrIMZw3eDh0nq6hlLjlDV15squh0MnhZ9vQA6ol+qGTFf/TFJFa6P8x4UbvNKR2pEMHe2Bb6bVOyKrChBYyhVojEh6BKfet+Pkxu8yXviN1VxB9MYKGnxxS1BzeZZECxSTAD9optSs2EnUx3tmynAHtYKS3nB5eTWquv5xlYvjj8WcHJMlisKPbLfrtxrm5tF6Fi4npb5ys/XgwyJ0abiKNgtSS1ppK0ESPsizzzj06WpWu45m8RZ1SMZbNpOS+8NT3picbnOtquEz/xuVgaX1Nw6Ytfelley26kqnb7cyHMqGWGUpYk+jSKH+73jzvzKIZxj101zdnqHICdLRcC6mcaKVFpAC9qR94WVMtyIqYkNCgd76n/CiPw3o5xHzSYgIBsFbNH9zg3eN5Eve32h6WEc40PIatDmx6lVbgp3Ero2CztzSM+tfKzj74tQp88jkkU9PlDI12TN8eUwENt/VW+PwA47DnjhaxdM0534okAuObOCDZX8MZBfSfSG7O7MiImqkOxLDriHQsLFoa5rRAmuhDfr5oSAGPOzR2t6CIn1AyOZPEVe+NngaZFgZYZF9kKOp6GtQUZMn7z74EP9oEGC2Cd5uWUBmZ2C2f0SxjwarAqw9bccez2dzsiozSK9GsaU=  
 script:
-  - pip install mkdocs
-  - docker build -t $DOCKER_USER/documentation-as-code .
-  - docker tag $DOCKER_USER/documentation-as-code $DOCKER_USER/documentation-as-code:latest
-  - docker login -u $DOCKER_USER -p $DOCKER_PASS
-  - docker push $DOCKER_USER/documentation-as-code
+- pip install mkdocs
+- docker build -t $DOCKER_USER/documentation-as-code .
+- docker tag $DOCKER_USER/documentation-as-code $DOCKER_USER/documentation-as-code:latest
+- docker login -u $DOCKER_USER -p $DOCKER_PASS
+- docker push $DOCKER_USER/documentation-as-code
 notifications:
   email:
     on_failure: change
-    on_success: change  
+    on_success: change
