@@ -1,5 +1,5 @@
-FROM nginx
+FROM nginx:alpine
 USER 0
-COPY site /var/www/html/
+COPY site /usr/share/nginx/html/
 COPY nginx/*.conf /etc/nginx/conf.d/
 EXPOSE 8080
